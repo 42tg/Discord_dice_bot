@@ -1,5 +1,4 @@
-[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)     [<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" alt="alt text" width="100">](https://discord.gg/bbhBfZf)
 # Discord Dice Rolling - Bot
 
 ## Generelle Informationen
@@ -49,3 +48,5 @@ Zur Einrichtung auf einem Linux Server empfehle ich folgende Artikel
 [How to deploy your node app on Linux, 2016 edition](https://certsimple.com/blog/deploy-node-on-linux#node-linux-service-systemd)
 
 Schöne erklärung wie man einen Discord Bot anlegt und node kram installiert findet sich hier [WildBeast DiscordBot](https://github.com/TheSharks/WildBeast/wiki)
+
+Bei fragen könnt ihr mich auch auf Discord erreichen : [<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" alt="alt text" width="100">](https://discord.gg/bbhBfZf)

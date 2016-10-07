@@ -29,7 +29,7 @@
   `
   var diceFactory = require('./../js/DiceFactory.js')
 
-  var dices = diceFactory.getDices(str)
+  var dices = diceFactory.getDices(str, true)
   dices.forEach(function (test) {
     console.log(test.toString())
   })

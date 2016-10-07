@@ -50,6 +50,7 @@
         if (useSplittermondRules && _.sum(_.slice(sorted, 0, 2)) <= 3) {
           dice.slip = true
           dice.triumph = false
+          dice.highLow = 'L'
         }
 
         if (dice.highLow.toUpperCase() === 'L') {

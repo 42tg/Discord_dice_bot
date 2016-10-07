@@ -1,20 +1,20 @@
 {
   "name": "discord_dice_roller",
-  "version": "1.0.0",
-  "description": "Rolls a dice",
+  "version": "0.0.1",
+  "description": "Rolls a dice on Discrod Channels",
   "main": "main.js",
   "dependencies": {
     "discord.io": "^2.2.3",
-    "random-js": "^1.0.8",
-    "underscore": "^1.8.3"
+    "lodash": "^4.16.4",
+    "random-js": "^1.0.8"
   },
   "devDependencies": {
     "standard": "^8.3.0"
   },
   "scripts": {
     "test": "standard",
-    "fix" : "standard --fix"
+    "fix": "standard --fix"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "42tg",
+  "license": "MIT"
 }

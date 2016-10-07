@@ -1,4 +1,4 @@
-var _ = require('underscore')
+var _ = require('lodash')
 
 var Discord = require('discord.io')
 var config = require('./config.json')
@@ -21,7 +21,7 @@ if (!config.token) {
     if (userId === bot.id || !event) {
       return
     }
-    _.each(Commands, function (command) {
+    _.forEach(Commands, function (command) {
       try {
         command.fn(user, userId, channelId, message, event, bot)
       } catch (e) {

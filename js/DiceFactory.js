@@ -3,6 +3,7 @@
   var DiceFactory = function () {
     var Random = require('random-js')
     var _ = require('lodash')
+    var config = require('./../config.json')
 
     function Dice (match, useSplittermondRules) {
       if (!match) {
@@ -107,7 +108,7 @@
         message.push(':trophy: :trophy: :trophy: :trophy: **TRIUMPH** :trophy: :trophy: :trophy: :trophy:')
       }
       message.push('*[' + this.rolled.join(' + ') + '] -> [' + this.keeped.join(' + ') + ']' + (this.fixed ? ' ' + this.operator + ' ' + this.fixed : '') + '* = **' + this.value + '**')
-      if (this.against) {
+      if (config.useSplittermondRuleset && this.against) {
         message.push('*Gegen* **' + this.against + '** *hast du* **' + this.eg + '** *Erfolgsgrade erziehlt!*')
       }
       message.push('')

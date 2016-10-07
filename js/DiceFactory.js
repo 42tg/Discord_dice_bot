@@ -43,7 +43,7 @@
       function handleRoll (dice) {
         var sorted = _.sortBy(dice.rolled)
 
-        if (useSplittermondRules &&_.sum(_.slice(sorted, sorted.length - 2)) >= 19) {
+        if (useSplittermondRules && _.sum(_.slice(sorted, sorted.length - 2)) >= 19) {
           dice.triumph = true
         }
         if (useSplittermondRules && _.sum(_.slice(sorted, 0, 2)) <= 3) {
@@ -116,22 +116,21 @@
     }
 
     var regex = /#roll\s*(\d+)?[\sx\*]*(?:d(\d+))?(?:k(\d+)([H|L])?)?(?:\s*([\+\-\*\/])\s*(\d*))?(?:\s*:\s*(\d+))?/gi
-    
+
     return {
       exec: exec,
       getDices: getDices
     }
 
     function getDices (str, splittermond) {
-      if(!splittermond)
-      {
-        splittermond = false;
+      if (!splittermond) {
+        splittermond = false
       }
       var dices = []
       var m
       while ((m = exec(str)) !== null) {
         // The result can be accessed through the `m`-variable.
-        dices.push(new Dice(m,splittermond))
+        dices.push(new Dice(m, splittermond))
       }
       return dices
     }

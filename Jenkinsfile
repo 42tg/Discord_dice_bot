@@ -1,5 +1,5 @@
 node{
   checkout scm
   echo "here ${pwd()}"
-  cd > workspace.txt
+  bat "cd > workspace.txt"
 }

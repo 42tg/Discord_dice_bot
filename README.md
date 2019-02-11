@@ -1,4 +1,4 @@
-[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)     [<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" alt="alt text" width="100">](https://discord.gg/bbhBfZf)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/42tg/discord_dice_bot.svg)](https://greenkeeper.io/)     [<img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" alt="alt text" width="100">](https://discord.gg/bbhBfZf)
 # Discord Dice Rolling - Bot
 
 ## Generelle Informationen
